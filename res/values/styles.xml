@@ -1,0 +1,24 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    <!-- Application theme. -->
+    <style parent="android:Theme.Light" name="Theme.Base"></style>
+    <style parent="Theme.Base" name="Theme.Sample"></style>
+    <style parent="Theme.Base" name="AppTheme"></style>
+    <style name="Widget"></style>
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="Widget.SampleMessageTile">
+        <item name="android:background">@drawable/tile</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+</resources>
