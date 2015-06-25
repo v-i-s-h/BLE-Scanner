@@ -265,7 +265,7 @@ public class DeviceScan extends ListActivity {
 				viewHolder.deviceName.setText( R.string.unknown_device );
 			}
 			viewHolder.deviceAddress.setText( "MAC : " + device.getAddress() );
-			viewHolder.rssiValue.setText( "RSSI : " + (String)rssiValue.get(device.toString()) );
+			viewHolder.rssiValue.setText( "RSSI : -" + (String)rssiValue.get(device.toString()) + " dBm" );
 			viewHolder.rawData.setText( "Raw : " + (String)rawData.get(device.toString()) );
 
 			//viewHolder.rssiValue.setText(text);
