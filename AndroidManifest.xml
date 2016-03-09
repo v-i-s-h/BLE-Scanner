@@ -10,7 +10,7 @@
     
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-    <uses-feature android:required="true" android:name="android.hardware.bluetooth_ble"/>
+    <uses-feature android:required="true" android:name="android.hardware.bluetooth_le"/>
 
     <application
         android:allowBackup="true"
